@@ -1,0 +1,59 @@
+.imageText1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageText2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageText3 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.imageDiv{
+    position: relative;
+    color: white;
+}
+
+.imageCenteringHeight {
+    height: 100vh ;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    max-width: 100vw;
+}
+
+.imageCenteringWidth {
+    width: 100vw ;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    max-height: 100vh;
+}
+
+
+.imagePositioning1 {
+    object-position: 53% 0%;
+}
+
+.imagePositioning2 {
+    object-position: 50% 0%;
+}
+
+.imagePositioning3 {
+    object-position: 50% 0%;
+}
+
+
+
+  

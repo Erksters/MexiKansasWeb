@@ -1,7 +1,6 @@
 import react from 'react'
 import {
   BrowserRouter as Router,
-  Link,
   Switch,
   Route 
 } from "react-router-dom";
@@ -16,9 +15,6 @@ const App = () => {
     <>
       <Router classname="background">
       
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
             <About />
