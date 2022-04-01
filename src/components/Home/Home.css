@@ -33,6 +33,18 @@
     max-width: 100vw;
 }
 
+.divCenteringHeight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    height: 100vh ;
+    
+    
+    
+}
+
 .imageCenteringWidth {
     width: 100vw ;
     object-fit: cover;
@@ -43,7 +55,7 @@
 
 
 .imagePositioning1 {
-    object-position: 53% 0%;
+    object-position: 55% 0%;
 }
 
 .imagePositioning2 {

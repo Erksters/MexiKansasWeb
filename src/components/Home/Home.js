@@ -13,17 +13,31 @@ const Home = () => {
                 <img alt='first' src={img1} className="imageCenteringHeight imagePositioning1"/>
             </div>
             
+            
+            <div className="divCenteringHeight ">
+                <p className='spaceText1'>
+                    this is where i'll put a quote or something
+                </p>
+            </div>
+            
+            
+
             <div className='imageDiv'>
                 <div className='imageText2'>
                     more words
                 </div>
                 <img alt='second' src={img2} className="imageCenteringHeight imagePositioning2"/>
             </div>
+
+            <div className="divCenteringHeight ">
+                <p className='spaceText2'>
+                    this is where i'll put a quote or something
+                </p>
+            </div>
+
             
             <div className='imageDiv'>
-                <div className='imageText'>
-                    more words
-                </div>
+                
                 <img alt='second' src={img3} className="imageCenteringWidth imagePositioning3 "/>
             </div>
             
