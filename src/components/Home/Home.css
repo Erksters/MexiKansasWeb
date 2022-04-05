@@ -1,8 +1,23 @@
+.imageDiv{
+    position: relative;
+    color: white;
+}
+
 .imageText1 {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 300;
+    
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.spaceText1{
+    font-size:x-large;
+    
 }
 
 .imageText2 {
@@ -20,11 +35,6 @@
 }
 
 
-.imageDiv{
-    position: relative;
-    color: white;
-}
-
 .imageCenteringHeight {
     height: 100vh ;
     object-fit: cover;
@@ -37,12 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
     height: 100vh ;
-    
-    
-    
 }
 
 .imageCenteringWidth {
@@ -52,7 +57,6 @@
     display: block;
     max-height: 100vh;
 }
-
 
 .imagePositioning1 {
     object-position: 55% 0%;
@@ -65,7 +69,3 @@
 .imagePositioning3 {
     object-position: 50% 0%;
 }
-
-
-
-  

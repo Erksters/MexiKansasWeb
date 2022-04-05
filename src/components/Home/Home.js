@@ -3,12 +3,14 @@ import './Home.css'
 import img1 from './1.jpg'
 import img2 from './2.jpg'
 import img3 from './3.jpg'
+
 const Home = () => {
     return(
         <>           
             <div className='imageDiv'>
                 <div className='imageText1'>
-                    words
+                    <strong>Entre broma y broma la verdad se asoma.</strong>
+
                 </div>
                 <img alt='first' src={img1} className="imageCenteringHeight imagePositioning1"/>
             </div>
