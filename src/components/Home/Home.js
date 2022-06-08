@@ -3,32 +3,36 @@ import './Home.css'
 import img1 from './1.jpg'
 import img2 from './2.jpg'
 import img3 from './3.jpg'
+import FarmersMarket from './FarmersMarket.JPG'
+
 
 const Home = () => {
     return(
-        <>           
+        <div className='Home'>             
             <div className='imageDiv'>
                 <div className='imageText1'>
-                    <strong>Entre broma y broma la verdad se asoma.</strong>
-
+                    {/* Entre Broma y Broma la Verdad se Asoma */}
+                    Hi. I'm Erick. <br/>A programmer from Kansas
                 </div>
-                <img alt='first' src={img1} className="imageCenteringHeight imagePositioning1"/>
+                <img alt='Erick with his dog at the beach ' src={img1} className="imageCenteringHeight imagePositioning1"/>
             </div>
             
             
             <div className="divCenteringHeight ">
                 <p className='spaceText1'>
-                    this is where i'll put a quote or something
+                    I like to build websites. 
+                </p>
+
+                <p className='spaceText2'>
+                    Here are some of my projects.
                 </p>
             </div>
             
-            
-
             <div className='imageDiv'>
-                <div className='imageText2'>
+                {/* <div className='imageText2'>
                     more words
-                </div>
-                <img alt='second' src={img2} className="imageCenteringHeight imagePositioning2"/>
+                </div> */}
+                <img alt='farmers market KSU' src={FarmersMarket} className="imageCenteringHeight imagePositioning2"/>
             </div>
 
             <div className="divCenteringHeight ">
@@ -46,7 +50,7 @@ const Home = () => {
                 
 
                 
-            </>
+            </div>
             /* <>
                 <div>
                     <img alt='second image' src={img1} className="coverImg1" />
