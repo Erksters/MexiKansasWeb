@@ -7,7 +7,7 @@ import "./NavBar.css";
 const NavigationBar = () => {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar collapseOnSelect bg="light" expand="lg">
         <Container>
           <a
             style={{
