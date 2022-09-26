@@ -1,18 +1,33 @@
-import React, { useEffect } from "react";
+import React from "react";
 import PostData from "./Data.json";
+import Post from "./Post";
 import PostCard from "./PostCard";
 
 const PostsParent = () => {
-  console.log(Object.entries(PostData));
+  const params = new URLSearchParams(new URL(window.location.href).search);
+  const post_id = params.get("id") || null;
+  console.log(params.get("id"));
+  console.log(params.values);
 
+  if (post_id !== null) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          width: "100vw",
+          justifyContent: "center",
+        }}
+      >
+        <Post post_id={post_id} />
+      </div>
+    );
+  }
   return (
     <div
-      data-mid="outer"
       style={{
         display: "flex",
         width: "100vw",
         justifyContent: "center",
-        // textAlign: "center",
       }}
     >
       <div
@@ -30,6 +45,7 @@ const PostsParent = () => {
           <div style={{ margin: "20px" }}>
             <PostCard
               key={index}
+              post_id={index}
               title={PostData[entry].title}
               teaser={PostData[entry].teaser}
               imageArray={PostData[entry].images}

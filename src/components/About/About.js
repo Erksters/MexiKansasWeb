@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { ping_about } from "../api";
+// import { ping_about } from "../api";
 
 const About = () => {
   useEffect(() => {
-    fetch(ping_about);
+    // fetch(ping_about);
   }, []);
 
   return (

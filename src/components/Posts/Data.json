@@ -1,13 +1,13 @@
 {
-  "1": {
-    "title": "Title",
+  "0": {
+    "title": "Title0",
     "teaser": "card_Teaser",
     "date": "",
     "body": ["paragraph 1", "paragraph 2", "paragraph 3"],
     "images": ["Enchiladas2.jpg", "Gordita.jpg"]
   },
-  "2": {
-    "title": "Title",
+  "1": {
+    "title": "Title1",
     "teaser": "card_Teaser",
     "date": "",
     "body": ["paragraph 1", "paragraph 2", "paragraph 3"],

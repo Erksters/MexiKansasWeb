@@ -1,8 +1,9 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { search_post } from "../api";
 
 const PostCard = (props) => {
-  const { title, imageArray, teaser } = props;
+  const { title, imageArray, teaser, post_id } = props;
 
   function importAll(r) {
     let images = {};
@@ -27,7 +28,9 @@ const PostCard = (props) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{teaser}</Card.Text>
-          <Button variant="primary">Read More</Button>
+          <Button href={`${search_post}${post_id}`} variant="primary">
+            Read More
+          </Button>
         </Card.Body>
       </Card>
     </>
