@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MexiKansasWeb/static/css/main.6645e34d.css",
-    "main.js": "/MexiKansasWeb/static/js/main.213bf045.js",
-    "static/js/787.bf604c75.chunk.js": "/MexiKansasWeb/static/js/787.bf604c75.chunk.js",
-    "static/media/Gordita.jpg": "/MexiKansasWeb/static/media/Gordita.29b72b2c36d74cdf4301.jpg",
-    "static/media/Enchiladas2.jpg": "/MexiKansasWeb/static/media/Enchiladas2.6c6461ed8e8273a37361.jpg",
-    "static/media/Human_Brain.jpg": "/MexiKansasWeb/static/media/Human_Brain.15f4d5e03ae24de22076.jpg",
-    "index.html": "/MexiKansasWeb/index.html",
-    "main.6645e34d.css.map": "/MexiKansasWeb/static/css/main.6645e34d.css.map",
-    "main.213bf045.js.map": "/MexiKansasWeb/static/js/main.213bf045.js.map",
-    "787.bf604c75.chunk.js.map": "/MexiKansasWeb/static/js/787.bf604c75.chunk.js.map"
+    "main.css": "/static/css/main.6645e34d.css",
+    "main.js": "/static/js/main.e50d10cd.js",
+    "static/js/787.bf604c75.chunk.js": "/static/js/787.bf604c75.chunk.js",
+    "static/media/Gordita.jpg": "/static/media/Gordita.29b72b2c36d74cdf4301.jpg",
+    "static/media/Enchiladas2.jpg": "/static/media/Enchiladas2.6c6461ed8e8273a37361.jpg",
+    "static/media/Human_Brain.jpg": "/static/media/Human_Brain.15f4d5e03ae24de22076.jpg",
+    "index.html": "/index.html",
+    "main.6645e34d.css.map": "/static/css/main.6645e34d.css.map",
+    "main.e50d10cd.js.map": "/static/js/main.e50d10cd.js.map",
+    "787.bf604c75.chunk.js.map": "/static/js/787.bf604c75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6645e34d.css",
-    "static/js/main.213bf045.js"
+    "static/js/main.e50d10cd.js"
   ]
 }
