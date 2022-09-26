@@ -1,5 +1,6 @@
 import React from "react";
 import PostData from "./Data.json";
+import ReactHtmlParser from 'react-html-parser'; 
 
 const Post = (props) => {
   const { post_id } = props;
@@ -20,11 +21,11 @@ const Post = (props) => {
       <div
         style={{
           maxWidth: "75vw",
-          textAlign: "center",
+          textAlign: "left",
         }}
       >
         {ReadPost.body.map((entry, index) => (
-          <p>{ReadPost.body[index]}</p>
+          <p>{ReactHtmlParser(ReadPost.body[index])}</p>
         ))}
       </div>
     </div>
