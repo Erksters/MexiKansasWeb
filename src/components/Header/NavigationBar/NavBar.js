@@ -23,18 +23,18 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/#/">Home</Nav.Link>
 
-              <Nav.Link data-cy="posts" href="/posts">
+              <Nav.Link data-cy="posts" href="/#/posts">
                 Posts
               </Nav.Link>
-              <Nav.Link data-cy="map" href="/map">
+              <Nav.Link data-cy="map" href="/#/map">
                 Map
               </Nav.Link>
-              <Nav.Link data-cy="about" href="/about">
+              <Nav.Link data-cy="about" href="/#/about">
                 About
               </Nav.Link>
-              <Nav.Link data-cy="reference" href="/references">
+              <Nav.Link data-cy="reference" href="/#/references">
                 References
               </Nav.Link>
             </Nav>

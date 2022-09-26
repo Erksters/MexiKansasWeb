@@ -4,7 +4,7 @@ import Post from "./Post";
 import PostCard from "./PostCard";
 
 const PostsParent = () => {
-  const params = new URLSearchParams(new URL(window.location.href).search);
+  const params = new URLSearchParams((window.location.hash.substring(7)));
   const post_id = params.get("id") || null;
 
   if (post_id !== null) {

@@ -2,10 +2,7 @@ import React from "react";
 import NavigationBar from "../NavigationBar/NavBar";
 import "./Header.css";
 
-/**
-  Link to image 
-  https://pixabay.com/illustrations/bitcoin-cryptocurrency-crypto-3089728/
-  */
+
 const Header = () => {
   return (
     <div id="Header" style={{ display: "block" }}>
