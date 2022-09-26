@@ -1,10 +1,18 @@
 {
   "0": {
-    "title": "Title0",
-    "teaser": "card_Teaser",
+    "title": "Therapy For Everyone",
+    "teaser": "I recommend therapy to everyone and discuss my own experience attending a few sessions.",
     "date": "",
-    "body": ["paragraph 1", "paragraph 2", "paragraph 3"],
-    "images": ["Enchiladas2.jpg", "Gordita.jpg"]
+    "body": [
+      "I interpret therapy as guided positive thinking, much like a religious leader would do so with their followers. The goal of therapy is to promote the well being of the individual through their daily transitions, through their emotional struggles, and through prior traumatic experiences. What boggles me is that we can receive this help from a distance. There are no physical limitations to the session, but the results can be life-altering. ",
+      "When I attended a few free sessions offered through my university, I explicitly remember thinking how silly it was to discuss my personal problems to a complete stranger. They had absolutely no knowledge of who I was a day ago, but I felt like my life was in their hands. I was the clay ready to be molded into a work of art with the right molding. Luckily, I had a talented therapist who I would see weekly to discuss my issues. I eventually felt much better after a few months from the first session, but I was surprised how no one has ever recommended this experience.",
+      "My problems could be interpreted as a lack of support from family members, imposter syndrome, and the occasional panic attack. Obviously, something was wrong with my mental health but at that point in time, I couldn't pin-point the source of my stress. I spoke about what frustrated me and what could possibly be the source of my panic attacks. She saw that I was trying to scoot as far away from her as possible when speaking about my issues, so we came up with strategies to become more confident when dealing with conflict.",
+      "The results of these sessions cannot be seen immediately since behavioral changes require time and dedication. Biasing your thoughts to positivity is a skill that many have not trained. Much like learning how to ride a bike, it’s easier to grasp when you have some training wheels on. Eventually, you’ll be out in the world on your own but with enough practice, you will not fail. ",
+      "When I informed my parents about this, they gave me the good ol’ classic phrases such as “You have no reason to be upset”, and “You have it so much better than us growing up because in Mexico…”, and even “You aren’t stressed like myself or other parents who have six kids to…”. These toxic phrases are not effective when listening to your child. It unvalidated my emotions and furthered my own anger. Now that I think about it, they didn’t really offer any solutions.",
+      "What’s funny to me now is that I’ve had to explain to my parents that therapy isn’t reserved specifically to crazy people. Anyone can benefit from it since anyone can experience an emotionally stressful situation regardless of nationality or wealth. I tell them that’s it’s more of a maintenance form of care like an oil-change for a car. Even if the poor can’t afford, they are typically the ones that need it the most. I once asked them “Would you rather have someone receive treatment before or after they hurt their loved ones/themselves?”. ",
+      "For some individuals, they may never see a therapist a day in their lives, but I believe anyone can benefit from this experience. Going to a session does not mean that there is something wrong with you. Going to a session means that you care about your mental health and the relationships you have in your family. "
+    ],
+    "images": ["Human_Brain.jpg"]
   },
   "1": {
     "title": "Title1",

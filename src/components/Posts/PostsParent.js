@@ -6,8 +6,6 @@ import PostCard from "./PostCard";
 const PostsParent = () => {
   const params = new URLSearchParams(new URL(window.location.href).search);
   const post_id = params.get("id") || null;
-  console.log(params.get("id"));
-  console.log(params.values);
 
   if (post_id !== null) {
     return (
@@ -22,6 +20,7 @@ const PostsParent = () => {
       </div>
     );
   }
+
   return (
     <div
       style={{

@@ -19,7 +19,7 @@ const PostCard = (props) => {
 
   return (
     <>
-      <Card>
+      <Card style={{ maxWidth: "269.95px", height: "400px" }}>
         <Card.Img
           height={180}
           variant="top"
@@ -27,11 +27,20 @@ const PostCard = (props) => {
         />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text>{teaser}</Card.Text>
-          <Button href={`${search_post}${post_id}`} variant="primary">
+          <Card.Text>{teaser.substring(0, 100)}...</Card.Text>
+        </Card.Body>
+        <Card.Footer
+          bsPrefix=""
+          style={{ justifyContent: "center", display: "flex" }}
+        >
+          <Button
+            style={{ width: "100%" }}
+            href={`${search_post}${post_id}`}
+            variant="primary"
+          >
             Read More
           </Button>
-        </Card.Body>
+        </Card.Footer>
       </Card>
     </>
   );

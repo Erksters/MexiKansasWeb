@@ -15,12 +15,18 @@ const Post = (props) => {
         alignItems: "center",
       }}
     >
-      <p>{ReadPost.title}</p>
+      <h1>{ReadPost.title}</h1>
 
-      {ReadPost.body.map((entry, index) => (
-        <p>{ReadPost.body[index]}</p>
-      ))}
-      
+      <div
+        style={{
+          maxWidth: "75vw",
+          textAlign: "center",
+        }}
+      >
+        {ReadPost.body.map((entry, index) => (
+          <p>{ReadPost.body[index]}</p>
+        ))}
+      </div>
     </div>
   );
 };
