@@ -1,75 +1,51 @@
-import react from 'react'
-import './Home.css'
-import img1 from './1.jpg'
-import img2 from './2.jpg'
-import img3 from './3.jpg'
-import FarmersMarket from './FarmersMarket.JPG'
-
+import React, { useEffect, useState } from "react";
+import { show_recent_100, ping_home, search_redirect } from "../api";
+import Loading from "../Loading/Loading";
+import "./Home.css";
 
 const Home = () => {
-    return(
-        <div className='Home'>             
-            <div className='imageDiv'>
-                <div className='imageText1'>
-                    {/* Entre Broma y Broma la Verdad se Asoma */}
-                    Hi. I'm Erick. <br/>A programmer from Kansas
-                </div>
-                <img alt='Erick with his dog at the beach ' src={img1} className="imageCenteringHeight imagePositioning1"/>
-            </div>
-            
-            
-            <div className="divCenteringHeight ">
-                <p className='spaceText1'>
-                    I like to build websites. 
-                </p>
+  const [showRecent100, setShowRecent100] = useState(undefined);
 
-                <p className='spaceText2'>
-                    Here are some of my projects.
-                </p>
-            </div>
-            
-            <div className='imageDiv'>
-                {/* <div className='imageText2'>
-                    more words
-                </div> */}
-                <img alt='farmers market KSU' src={FarmersMarket} className="imageCenteringHeight imagePositioning2"/>
-            </div>
+  useEffect(() => {
+    fetch(show_recent_100)
+      .then((response) => response.json())
+      .then((data) => {
+        setShowRecent100(data);
+      });
 
-            <div className="divCenteringHeight ">
-                <p className='spaceText2'>
-                    this is where i'll put a quote or something
-                </p>
-            </div>
+    fetch(ping_home);
+  }, []);
 
-            
-            <div className='imageDiv'>
-                
-                <img alt='second' src={img3} className="imageCenteringWidth imagePositioning3 "/>
-            </div>
-            
-                
+  if (showRecent100 === undefined) {
+    console.log("loading...");
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
+  }
 
-                
-            </div>
-            /* <>
-                <div>
-                    <img alt='second image' src={img1} className="coverImg1" />
-                    
-                </div>
-                
-            </>
-            <>
-                <div>
-                    <img alt='first image' src={img1} className="coverImg1" />
-                    
-                </div>
-                
-            </> */
-        
+  return (
+    <div
+      style={{
+        display: "flex",
+        width: "100vw",
+        flexDirection: "column",
+        alignItems: "center",
+        textAlign: "center",
+      }}
+    >
+      <br />
 
-        
-    )
+      <div style={{ maxWidth: "75vw" }}>
+        <h3>Crytpo Scam Prevention and Official Regulation Compendium.</h3>
 
-}
+        <br />
+        <br />
+        <p>Recently Registered Sketchy Wallets to Avoid When Trading Online</p>
+      </div>
+    </div>
+  );
+};
 
 export default Home;

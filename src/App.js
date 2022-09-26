@@ -1,40 +1,37 @@
-import react from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route 
-} from "react-router-dom";
-
-import './App.css';
-import About from './components/About/About';
-import NavBar from './components/Header/NavBar';
-import Home from './components/Home/Home';
-import Writings from './components/Writings/Writings';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header/Header";
+import Home from "./components/Home/Home";
+// import Posts from "./components/Posts/Posts";
+// import Map from "./components/Map/Map";
+import About from "./components/About/About";
+// import References from "./components/References/References";
+import AppSEO from "./components/SEO/AppSEO";
+import PostsParent from "./components/Posts/PostsParent";
 
 const App = () => {
   return (
-    <>
+    <div>
+      <AppSEO />
+      <br />
+      <Header />
+      <div>
+        <Router>
+          <Switch>
+            <Route path="/about" component={About} />
+            {/* <Route path="/references" component={References} />
+            
+            <Route path="/map" component={Map} /> */}
+            <Route path="/posts" component={PostsParent} />
 
-    <NavBar/>
-      <Router classname="background">
-      
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-
-          <Route path="/writings">
-            <Writings />
-          </Route>
-          
-          <Route exact path="/">
-            <Home/>
-          </Route>
-        </Switch>
-      
-    </Router>
-    </>
-    );
-}
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </Router>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

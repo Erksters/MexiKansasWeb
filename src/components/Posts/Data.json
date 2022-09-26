@@ -1,0 +1,16 @@
+{
+  "1": {
+    "title": "Title",
+    "teaser": "card_Teaser",
+    "date": "",
+    "body": ["paragraph 1", "paragraph 2", "paragraph 3"],
+    "images": ["Enchiladas2.jpg", "Gordita.jpg"]
+  },
+  "2": {
+    "title": "Title",
+    "teaser": "card_Teaser",
+    "date": "",
+    "body": ["paragraph 1", "paragraph 2", "paragraph 3"],
+    "images": ["Gordita.jpg", "Enchiladas2.jpg"]
+  }
+}
