@@ -4,7 +4,7 @@ import Post from "./Post";
 import PostCard from "./PostCard";
 
 const PostsParent = () => {
-  const params = new URLSearchParams((window.location.hash.substring(7)));
+  const params = new URLSearchParams(window.location.hash.substring(7));
   const post_id = params.get("id") || null;
 
   function importAll(r) {
@@ -18,21 +18,24 @@ const PostsParent = () => {
   const denseArrayImages = importAll(
     require.context("./Images", false, /\.(png|jpe?g|svg)$/)
   );
-  
+
   if (post_id !== null) {
     return (
       <div
         style={{
           display: "flex",
-          flexDirection:'column',
+          flexDirection: "column",
           width: "100vw",
           justifyContent: "center",
-          alignItems:'center'
+          alignItems: "center",
         }}
       >
-        <br/>
-        <img style={{width:'400px', maxWidth: '75vw'}} src={`${denseArrayImages[ PostData[post_id].images[0]]}`} />
-        <br/>
+        <br />
+        <img
+          style={{ width: "400px", maxWidth: "75vw" }}
+          src={`${denseArrayImages[PostData[post_id].images[0]]}`}
+        />
+        <br />
 
         <Post post_id={post_id} />
       </div>

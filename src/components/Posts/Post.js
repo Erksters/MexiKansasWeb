@@ -1,6 +1,6 @@
 import React from "react";
 import PostData from "./Data.json";
-import ReactHtmlParser from 'react-html-parser'; 
+import ReactHtmlParser from "react-html-parser";
 
 const Post = (props) => {
   const { post_id } = props;

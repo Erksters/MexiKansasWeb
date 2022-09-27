@@ -18,18 +18,20 @@
     "title": "Is College Right For You?",
     "teaser": "I give my honest advice for HS graduates as they begin their adulthood",
     "date": "",
-    "body": ["With so many high-school students contemplating pursuing a college degree, I was asked to provide thoughts and recommendations. This was my response in the form of email:", 
-    "Dear [name],",
-    "Since you’re getting ready to graduate High School, many influential decisions are coming your way. These decisions can open or shut the door to numerous opportunities, but most importantly, no one can make these decisions for you. So consider these options carefully.",
-    "My first piece of advice, that I tell all high-schoolers, is to review your YouTube App. In many ways, the “Algorithm” knows you better than you know yourself. It is designed to know what you enjoy and shoves entertainment down our throats. Use this to your advantage.",
-    "If your YouTube app recommended videos from any of: <a href='https://www.ansys.com/blog/best-engineering-you-tube-channels'>these YouTube Channels</a>",
-    
-    "then you may enjoy a a Bachelor's Degree. These channels target people that have a passion for science and research, which is what you can expect to see from four-year university. While this endeavor requires much more discipline and small fortune, it connects you to the greatest minds of our generation. Additionally, the likelihood of climbing a corporate latter greatly increases with a degree. Lastly, it really does not matter which university you go to. Every university will offer a similar program paired with unnecessary bureaucracy. Find a cheap in-state university with a high graduation rate.",
-    "If you do not enjoy watching videos from the aforementioned YouTube Channels, then you should consider a technical degree from your two-year or local community college. This will open the door to reliable jobs, economic prosperity via local opportunities, and college credits (that you can transfer to a four-year university if you change your mind). These types of programs are less expensive, offered in a shorter/ more effective time frame, and are arguably less stressful than the four year program. I recognize that some people often look down on technical schools but I would highly recommend them because they focus more on helping their student body rather than profiting on their sports teams.",
-    "Ultimately it is important to practice discipline and stoicism. To pursue higher education, you must be willing to put in the time and effort because no one can do the work for you!",
-    "Examples to look for can include:",
-    "<ul><li>Regular Exercise</li><li>Decent Dieting</li><li>Regular Phone calls to family members</li><li>Turning in all of your homework (on time)</li><li>Going to Organizations or Church</li><li>Knowing when to say 'no'</li></ul>",
-    "Good luck on your journey,"],
+    "body": [
+      "With so many high-school students contemplating pursuing a college degree, I was asked to provide thoughts and recommendations. This was my response in the form of email:",
+      "Dear [name],",
+      "Since you’re getting ready to graduate High School, many influential decisions are coming your way. These decisions can open or shut the door to numerous opportunities, but most importantly, no one can make these decisions for you. So consider these options carefully.",
+      "My first piece of advice, that I tell all high-schoolers, is to review your YouTube App. In many ways, the “Algorithm” knows you better than you know yourself. It is designed to know what you enjoy and shoves entertainment down our throats. Use this to your advantage.",
+      "If your YouTube app recommended videos from any of: <a href='https://www.ansys.com/blog/best-engineering-you-tube-channels'>these YouTube Channels</a>",
+
+      "then you may enjoy a a Bachelor's Degree. These channels target people that have a passion for science and research, which is what you can expect to see from four-year university. While this endeavor requires much more discipline and small fortune, it connects you to the greatest minds of our generation. Additionally, the likelihood of climbing a corporate latter greatly increases with a degree. Lastly, it really does not matter which university you go to. Every university will offer a similar program paired with unnecessary bureaucracy. Find a cheap in-state university with a high graduation rate.",
+      "If you do not enjoy watching videos from the aforementioned YouTube Channels, then you should consider a technical degree from your two-year or local community college. This will open the door to reliable jobs, economic prosperity via local opportunities, and college credits (that you can transfer to a four-year university if you change your mind). These types of programs are less expensive, offered in a shorter/ more effective time frame, and are arguably less stressful than the four year program. I recognize that some people often look down on technical schools but I would highly recommend them because they focus more on helping their student body rather than profiting on their sports teams.",
+      "Ultimately it is important to practice discipline and stoicism. To pursue higher education, you must be willing to put in the time and effort because no one can do the work for you!",
+      "Examples to look for can include:",
+      "<ul><li>Regular Exercise</li><li>Decent Dieting</li><li>Regular Phone calls to family members</li><li>Turning in all of your homework (on time)</li><li>Going to Organizations or Church</li><li>Knowing when to say 'no'</li></ul>",
+      "Good luck on your journey,"
+    ],
     "images": ["College.jpg"]
   }
 }

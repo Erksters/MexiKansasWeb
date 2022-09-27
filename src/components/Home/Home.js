@@ -1,29 +1,10 @@
 import React, { useEffect, useState } from "react";
 // import { show_recent_100} from "../api";
 import Loading from "../Loading/Loading";
+import { Button } from "react-bootstrap";
 import "./Home.css";
 
 const Home = () => {
-  const [showRecent100, setShowRecent100] = useState(undefined);
-
-  useEffect(() => {
-    // fetch(show_recent_100)
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     setShowRecent100(data);
-    //   });
-    // fetch(ping_home);
-  }, []);
-
-  if (showRecent100 === undefined) {
-    console.log("loading...");
-    return (
-      <div>
-        <Loading />
-      </div>
-    );
-  }
-
   return (
     <div
       style={{
@@ -36,12 +17,38 @@ const Home = () => {
     >
       <br />
 
-      <div style={{ maxWidth: "75vw" }}>
-        <h3>Crytpo Scam Prevention and Official Regulation Compendium.</h3>
+      <div style={{ width: "75vw" }}>
+        <h3>Review Popular Tweets or Read Our Posts</h3>
+        <Button
+          style={{
+            width: "100%",
+            background: "#000",
+            border: "solid",
+            fontSize: "large",
+          }}
+        >
+          View Posts
+        </Button>
 
         <br />
         <br />
-        <p>Recently Registered Sketchy Wallets to Avoid When Trading Online</p>
+
+        <h3>Review Latinx Tweets</h3>
+        <iframe
+          src="https://widgets.sociablekit.com/twitter-hashtag-feed/iframe/94228"
+          frameborder="0"
+          width="100%"
+          height="500"
+        ></iframe>
+        <br />
+        <br />
+
+        <iframe
+          src="https://widgets.sociablekit.com/twitter-feed/iframe/94249"
+          frameborder="0"
+          width="100%"
+          height="500"
+        ></iframe>
       </div>
     </div>
   );

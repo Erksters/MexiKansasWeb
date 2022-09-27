@@ -2,7 +2,6 @@ import React from "react";
 import NavigationBar from "../NavigationBar/NavBar";
 import "./Header.css";
 
-
 const Header = () => {
   return (
     <div id="Header" style={{ display: "block" }}>
