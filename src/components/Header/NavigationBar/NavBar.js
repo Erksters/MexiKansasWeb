@@ -10,11 +10,11 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect variant="dark" expand="lg">
         <Container
           className="Nav_Bar_Title"
-          onClick={() => {
-            window.location = "/#/";
-          }}
+     
         >
-          <h3>MexiKansas</h3>
+          <h3      onClick={() => {
+            window.location = "/#/";
+          }}>MexiKansas</h3>
 
           <Navbar.Brand href="#home"></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -15,27 +15,19 @@ const References = () => {
       <br />
       <div style={{ maxWidth: "75vw" }}>
         <p>
-          Many of our sources come from official government websites. Since our
-          researchers are not able to read every language, we had to rely on
-          translating services such as Google translate to have an idea as to
-          what the contents of the websites say.
+          Many of our stories come from anonymous submissions or the original author of this website.
+          We don't ask story-tellers to give their names as sometime their tales are embarrassing.
+          
         </p>
 
         <p>
-          As we searched for accurate information, some of it may have been
-          updated since the last time it was under review. Additionally, some
-          countries are not as advanced with their financial systems and have no
-          legislation or regulations yet, but that may change in the near future
-          as digital assets become more popular with the general public.
+          Additionally, some posts could derive their inspiration from other stories. We try to 
+          keep posts as original as possible 
         </p>
 
         <p>
-          It is a good idea to look for resources independently. One resource
-          that we took into heavy consideration was the . Additionally, we
-          looked at{" "}
-          <a href="https://freemanlaw.com/cryptocurrency/">FremanLaw</a> and
-          many other online journals to understand the state of crypto
-          respectively.
+          We recommend that you take an interest in Latinx role models off twitter, reddit, or other forms of social media.
+          They have spent more time in this atmosphere and could provide better insight and community for your struggles. 
         </p>
       </div>
     </div>

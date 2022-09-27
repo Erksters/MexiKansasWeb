@@ -17,7 +17,8 @@ const Home = () => {
       <br />
 
       <div style={{ width: "75vw" }}>
-        <h3>Review Popular Tweets or Read Our Posts</h3>
+        <h2>Review Popular Tweets or Read Our Posts</h2>
+        <br/>
         <button
           className="Simple_Button"
           onClick={() => {
