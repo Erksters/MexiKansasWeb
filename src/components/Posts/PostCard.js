@@ -19,23 +19,26 @@ const PostCard = (props) => {
 
   return (
     <>
-      <Card className="Card">
-        <Card.Title className="Card_Title">{title}</Card.Title>
-
-        <Card.Img
-          style={{ cursor: "pointer" }}
+      <div className="Card">
+        <div className="Card_Title">{title}</div>
+        
+        <img className="Card_Img"
+          style={{ cursor: "pointer"
+          
+           }}
           onClick={() => {
             window.open(`${search_post}${post_id}`, "_blank").focus();
           }}
-          height={180}
+          
           variant="top"
           src={denseArrayImages[imageArray[0]]}
         />
-        <Card.Body className="Card_Body">
-          <Card.Text>{teaser.substring(0, 100)}...</Card.Text>
-        </Card.Body>
-        <Card.Footer
-          bsPrefix=""
+        <br/>
+        <div className="Card_Body">
+          <div>{teaser.substring(0, 100)}...</div>
+        </div>
+        <div
+          
           style={{ justifyContent: "center", display: "flex" }}
         >
           <Button
@@ -46,8 +49,8 @@ const PostCard = (props) => {
           >
             Read More
           </Button>
-        </Card.Footer>
-      </Card>
+        </div>
+      </div>
     </>
   );
 };

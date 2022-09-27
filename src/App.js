@@ -10,8 +10,8 @@ import About from "./components/About/About";
 import AppSEO from "./components/SEO/AppSEO";
 import PostsParent from "./components/Posts/PostsParent";
 import References from "./components/References/References";
-import "./App.css";
 import Submissions from "./components/Submissions/Submissions";
+import "./App.css";
 
 const App = () => {
   return (

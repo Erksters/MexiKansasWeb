@@ -40,16 +40,14 @@ const PostsParent = () => {
         <br />
 
         <Post post_id={post_id} />
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLScQtTuerF33vH9X0Iu8u7qfgyhPpkmQklYc7S_n9jL3mg1w8w/viewform?embedded=true"
-          width="640"
-          height="573"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
+        <button
+          className="Simple_Button"
+          onClick={() => {
+            window.location = "/#/submissions";
+          }}
         >
-          Loading…
-        </iframe>
+          Start a Submission
+        </button>
       </div>
     );
   }

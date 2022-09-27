@@ -76,6 +76,10 @@ h1 {
   max-width: 269.95px;
   height: 500px;
   border: solid 2px;
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+
 }
 
 .Card_Title {
@@ -86,8 +90,14 @@ h1 {
   justify-content: center;
 }
 
+.Card_Img{
+  max-width: 265.95px;
+  width: 100%;
+  height: 180px;
+}
+
 .Card_Body {
-  background: #f1f1f1;
+  padding: 4.5%;
   text-align: left;
 }
 
@@ -97,6 +107,10 @@ h1 {
   width: 100%;
   border: solid 1px;
   font-size: larger;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  position: relative;
+  bottom: -90px;  
 }
 
 .Card_Button:hover {
