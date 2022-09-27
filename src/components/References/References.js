@@ -15,19 +15,21 @@ const References = () => {
       <br />
       <div style={{ maxWidth: "75vw" }}>
         <p>
-          Many of our stories come from anonymous submissions or the original author of this website.
-          We don't ask story-tellers to give their names as sometime their tales are embarrassing.
-          
+          Many of our stories come from anonymous submissions or the original
+          author of this website. We don't ask story-tellers to give their names
+          as sometime their tales are embarrassing.
         </p>
 
         <p>
-          Additionally, some posts could derive their inspiration from other stories. We try to 
-          keep posts as original as possible 
+          Additionally, some posts could derive their inspiration from other
+          stories. We try to keep posts as original as possible
         </p>
 
         <p>
-          We recommend that you take an interest in Latinx role models off twitter, reddit, or other forms of social media.
-          They have spent more time in this atmosphere and could provide better insight and community for your struggles. 
+          We recommend that you take an interest in Latinx role models off
+          twitter, reddit, or other forms of social media. They have spent more
+          time in this atmosphere and could provide better insight and community
+          for your struggles.
         </p>
       </div>
     </div>

@@ -8,13 +8,14 @@ const NavigationBar = () => {
   return (
     <>
       <Navbar collapseOnSelect variant="dark" expand="lg">
-        <Container
-          className="Nav_Bar_Title"
-     
-        >
-          <h3      onClick={() => {
-            window.location = "/#/";
-          }}>MexiKansas</h3>
+        <Container className="Nav_Bar_Title">
+          <h3
+            onClick={() => {
+              window.location = "/#/";
+            }}
+          >
+            MexiKansas
+          </h3>
 
           <Navbar.Brand href="#home"></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,6 +42,9 @@ const NavigationBar = () => {
               </Nav.Link>
               <Nav.Link data-cy="reference" href="/#/references">
                 <a className="Nav_Bar_Items">References</a>
+              </Nav.Link>
+              <Nav.Link data-cy="submissions" href="/#/submissions">
+                <a className="Nav_Bar_Items">Submissions</a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

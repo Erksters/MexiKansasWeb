@@ -11,7 +11,9 @@
   justify-content: center;
 }
 
-p, h2 ,h3 {
+p,
+h2,
+h3 {
   font-size: larger;
   font-family: "Merriweather Sans", sans-serif;
 }

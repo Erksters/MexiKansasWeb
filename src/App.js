@@ -11,6 +11,7 @@ import AppSEO from "./components/SEO/AppSEO";
 import PostsParent from "./components/Posts/PostsParent";
 import References from "./components/References/References";
 import "./App.css";
+import Submissions from "./components/Submissions/Submissions";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             {/*
             <Route path="/map" component={Map} /> */}
             <Route path="/posts" component={PostsParent} />
+            <Route path="/submissions" component={Submissions} />
 
             <Route exact path="/" component={Home} />
           </Switch>
