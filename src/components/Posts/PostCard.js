@@ -20,36 +20,37 @@ const PostCard = (props) => {
   return (
     <>
       <div className="Card">
-        <div className="Card_Title">{title}</div>
-        
-        <img className="Card_Img"
-          style={{ cursor: "pointer"
-          
-           }}
+        <div
+          className="Card_Title"
+          style={{ cursor: "pointer" }}
           onClick={() => {
             window.open(`${search_post}${post_id}`, "_blank").focus();
           }}
-          
+        >
+          {title}
+        </div>
+
+        <img
+          className="Card_Img"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            window.open(`${search_post}${post_id}`, "_blank").focus();
+          }}
           variant="top"
           src={denseArrayImages[imageArray[0]]}
         />
-        <br/>
         <div className="Card_Body">
           <div>{teaser.substring(0, 100)}...</div>
         </div>
-        <div
-          
-          style={{ justifyContent: "center", display: "flex" }}
+
+        <Button
+          className="Card_Button"
+          onClick={() => {
+            window.open(`${search_post}${post_id}`, "_blank").focus();
+          }}
         >
-          <Button
-            className="Card_Button"
-            onClick={() => {
-              window.open(`${search_post}${post_id}`, "_blank").focus();
-            }}
-          >
-            Read More
-          </Button>
-        </div>
+          Read More
+        </Button>
       </div>
     </>
   );

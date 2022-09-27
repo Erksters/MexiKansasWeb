@@ -79,7 +79,7 @@ h1 {
   display: flex;
   flex-direction: column;
   background: #f1f1f1;
-
+  align-items: center;
 }
 
 .Card_Title {
@@ -90,7 +90,7 @@ h1 {
   justify-content: center;
 }
 
-.Card_Img{
+.Card_Img {
   max-width: 265.95px;
   width: 100%;
   height: 180px;
@@ -104,13 +104,11 @@ h1 {
 .Card_Button {
   color: black;
   background: #9ceebc;
-  width: 100%;
   border: solid 1px;
   font-size: larger;
-  margin-left: 4.5%;
-  margin-right: 4.5%;
-  position: relative;
-  bottom: -90px;  
+  width: 100%;
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 .Card_Button:hover {
