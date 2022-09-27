@@ -21,7 +21,13 @@ const NavigationBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="Nav_Item_Hover">
               <Nav.Link href="/#/">
-                <a id="item" onMouseOver="this.style.color='red'" className="Nav_Bar_Items">Home</a>
+                <a
+                  id="item"
+                  onMouseOver="this.style.color='red'"
+                  className="Nav_Bar_Items"
+                >
+                  Home
+                </a>
               </Nav.Link>
 
               <Nav.Link data-cy="posts" href="/#/posts">

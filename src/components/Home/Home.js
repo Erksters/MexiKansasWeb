@@ -18,12 +18,11 @@ const Home = () => {
 
       <div style={{ width: "75vw" }}>
         <h3>Review Popular Tweets or Read Our Posts</h3>
-        <button 
-        className="Simple_Button"
-          onClick={()=>{
-            window.location = "/#/posts"
+        <button
+          className="Simple_Button"
+          onClick={() => {
+            window.location = "/#/posts";
           }}
-          
         >
           View Posts
         </button>

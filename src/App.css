@@ -41,26 +41,23 @@ h1 {
   color: #fff;
 }
 
-.Nav_Bar_Title{
+.Nav_Bar_Title {
   cursor: pointer;
 }
 
-.Nav_Bar_Title :hover{
-  color: #9CEEBC;
+.Nav_Bar_Title :hover {
+  color: #9ceebc;
 }
-
 
 .Nav_Bar_Items {
   text-decoration: none;
   background: black;
   color: #fff;
   font-size: large;
-  
 }
 
-.Nav_Item_Hover :hover{
-  color: #9CEEBC;
-  
+.Nav_Item_Hover :hover {
+  color: #9ceebc;
 }
 .Post_Card_Arrangement {
   display: flex;
@@ -74,12 +71,12 @@ h1 {
 }
 
 .Card {
-max-width: 269.95px;
-height: 500px;
-border: solid 2px;
+  max-width: 269.95px;
+  height: 500px;
+  border: solid 2px;
 }
 
-.Card_Title{
+.Card_Title {
   display: flex;
   text-align: center;
   height: 50px;
@@ -87,20 +84,20 @@ border: solid 2px;
   justify-content: center;
 }
 
-.Card_Body{
+.Card_Body {
   background: #f1f1f1;
   text-align: left;
 }
 
-.Card_Button{
+.Card_Button {
   color: black;
-  background: #9CEEBC;
+  background: #9ceebc;
   width: 100%;
-  border: solid 1px ;
+  border: solid 1px;
   font-size: larger;
 }
 
-.Card_Button:hover{
+.Card_Button:hover {
   background-color: black !important;
   border: solid 1px !important;
 }
@@ -118,13 +115,12 @@ border: solid 2px;
   margin-top: 10vh;
   text-align: center;
 }
-.Simple_Button :hover{
-  color: #9CEEBC;
+.Simple_Button :hover {
+  color: #9ceebc;
 }
-.Simple_Button{
+.Simple_Button {
   color: white;
   width: 100%;
   background-color: black;
   font-size: larger;
 }
-

@@ -19,11 +19,11 @@ const PostCard = (props) => {
 
   return (
     <>
-      <Card className="Card" >
-      <Card.Title className="Card_Title" >{title}</Card.Title>
+      <Card className="Card">
+        <Card.Title className="Card_Title">{title}</Card.Title>
 
         <Card.Img
-        style={{  cursor: 'pointer'}}
+          style={{ cursor: "pointer" }}
           onClick={() => {
             window.open(`${search_post}${post_id}`, "_blank").focus();
           }}
