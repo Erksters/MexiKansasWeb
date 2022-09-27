@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-// import { show_recent_100} from "../api";
+import React from "react";
 import Loading from "../Loading/Loading";
 import { Button } from "react-bootstrap";
 import "./Home.css";
@@ -26,6 +25,7 @@ const Home = () => {
             border: "solid",
             fontSize: "large",
           }}
+          href="/#/posts"
         >
           View Posts
         </Button>
