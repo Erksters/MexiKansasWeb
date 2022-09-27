@@ -1,5 +1,5 @@
 import React from "react";
-import { Reuters_Download } from "../api";
+
 
 const References = () => {
   return (
@@ -9,7 +9,7 @@ const References = () => {
         width: "100vw",
         flexDirection: "column",
         alignItems: "center",
-        textAlign: "center",
+        textAlign: "left",
       }}
     >
       <div style={{ maxWidth: "75vw" }}>
@@ -31,10 +31,6 @@ const References = () => {
         <p>
           It is a good idea to look for resources independently. One resource
           that we took into heavy consideration was the{" "}
-          <a href={Reuters_Download}>
-            Compendium: Cryptocurrency Regulations by Country By Thomas Reuters
-            2022
-          </a>
           . Additionally, we looked at{" "}
           <a href="https://freemanlaw.com/cryptocurrency/">FremanLaw</a> and
           many other online journals to understand the state of crypto

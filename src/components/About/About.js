@@ -13,15 +13,16 @@ const About = () => {
         width: "100vw",
         flexDirection: "column",
         alignItems: "center",
-        textAlign: "center",
+        textAlign: "left",
       }}
     >
-      <div style={{ maxWidth: "75vw" }}>
-        <br />
-        <div>
+      <br/>
           <h2>About MexiKansas.com and Its Authors</h2>
           <br />
-        </div>
+      
+      <div style={{ maxWidth: "75vw" }}>
+        <br />
+        
 
         <p>
           MexiKansas.com is a website dedicated to help Chicanos understand and
@@ -37,12 +38,16 @@ const About = () => {
           Some topics that we want to highlight in this site will include, but
           is not limited to: First generational student, Therapy, Food, Cultural
           Ties, National Relationships, and Relationships amonsts peers.
-          <p className="Topics">First-Generation Students</p>
-          <p className="Topics">Cultural Ties</p>
-          <p className="Topics">Food and Diet</p>
-          <p className="Topics">Therapy</p>
-          <p className="Topics">Relationships with Peers</p>
-          <p className="Topics">National Relationships</p>
+          <ul>
+
+          
+          <li className="Topics">First-Generation Students</li>
+          <li className="Topics">Cultural Ties</li>
+          <li className="Topics">Food and Diet</li>
+          <li className="Topics">Therapy</li>
+          <li className="Topics">Relationships with Peers</li>
+          <li className="Topics">National Relationships</li>
+          </ul>
         </p>
 
         <p>

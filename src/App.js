@@ -9,6 +9,8 @@ import About from "./components/About/About";
 // import References from "./components/References/References";
 import AppSEO from "./components/SEO/AppSEO";
 import PostsParent from "./components/Posts/PostsParent";
+import References from "./components/References/References";
+import "./App.css"
 
 const App = () => {
   return (
@@ -20,8 +22,8 @@ const App = () => {
         <Router basename="/#/">
           <Switch>
             <Route path="/about" component={About} />
-            {/* <Route path="/references" component={References} />
-            
+             <Route path="/references" component={References} />
+            {/*
             <Route path="/map" component={Map} /> */}
             <Route path="/posts" component={PostsParent} />
 

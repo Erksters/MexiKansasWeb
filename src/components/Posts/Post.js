@@ -5,7 +5,8 @@ import ReactHtmlParser from "react-html-parser";
 const Post = (props) => {
   const { post_id } = props;
   const ReadPost = PostData[post_id];
-
+  const postDate = new Date(ReadPost.date)
+  const options = {  year: 'numeric', month: 'long', day: 'numeric' };
   return (
     <div
       style={{
@@ -24,6 +25,7 @@ const Post = (props) => {
           textAlign: "left",
         }}
       >
+        <strong>{postDate.toLocaleString('en-US', options)}</strong>
         {ReadPost.body.map((entry, index) => (
           <p>{ReactHtmlParser(ReadPost.body[index])}</p>
         ))}
