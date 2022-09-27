@@ -19,9 +19,9 @@ const NavigationBar = () => {
           <Navbar.Brand href="#home"></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="">
+            <Nav className="Nav_Item_Hover">
               <Nav.Link href="/#/">
-                <a className="Nav_Bar_Items">Home</a>
+                <a id="item" onMouseOver="this.style.color='red'" className="Nav_Bar_Items">Home</a>
               </Nav.Link>
 
               <Nav.Link data-cy="posts" href="/#/posts">

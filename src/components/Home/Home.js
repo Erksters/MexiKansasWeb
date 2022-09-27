@@ -18,17 +18,15 @@ const Home = () => {
 
       <div style={{ width: "75vw" }}>
         <h3>Review Popular Tweets or Read Our Posts</h3>
-        <Button
-          style={{
-            width: "100%",
-            background: "#000",
-            border: "solid",
-            fontSize: "large",
+        <button 
+        className="Simple_Button"
+          onClick={()=>{
+            window.location = "/#/posts"
           }}
-          href="/#/posts"
+          
         >
           View Posts
-        </Button>
+        </button>
 
         <br />
         <br />
