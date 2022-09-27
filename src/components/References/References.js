@@ -1,17 +1,18 @@
 import React from "react";
 
-
 const References = () => {
   return (
     <div
+      className="Center_Content"
       style={{
-        display: "flex",
-        width: "100vw",
         flexDirection: "column",
         alignItems: "center",
         textAlign: "left",
       }}
     >
+      <br />
+      <h2>Where We Find Information</h2>
+      <br />
       <div style={{ maxWidth: "75vw" }}>
         <p>
           Many of our sources come from official government websites. Since our
@@ -30,8 +31,8 @@ const References = () => {
 
         <p>
           It is a good idea to look for resources independently. One resource
-          that we took into heavy consideration was the{" "}
-          . Additionally, we looked at{" "}
+          that we took into heavy consideration was the . Additionally, we
+          looked at{" "}
           <a href="https://freemanlaw.com/cryptocurrency/">FremanLaw</a> and
           many other online journals to understand the state of crypto
           respectively.

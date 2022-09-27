@@ -5,7 +5,7 @@ import { base_url } from "../../api";
 const Header = () => {
   return (
     <>
-      <div id="Header" style={{ display: "block" }}>
+      <div className="Header">
         <a href={base_url} style={{ textDecoration: "none" }}>
           <div
             id="Title"
@@ -16,7 +16,7 @@ const Header = () => {
             }}
           >
             <h1 style={{ display: "none" }}>Welcome to MexiKansas</h1>
-            <h1 style={{ fontSize: "xx-large" }}>MexiKansas</h1>
+            <h1 className="Header_Title">MexiKansas</h1>
           </div>
 
           <div
@@ -27,17 +27,10 @@ const Header = () => {
               textAlign: "center",
             }}
           >
-            <p style={{ fontSize: "x-large" }}>The Chicano Experience</p>
+            <p className="Header_SubTitle">The Chicano Experience</p>
           </div>
         </a>
-        <div
-          id="NavBar"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            background: "#F8F9FA",
-          }}
-        >
+        <div className="Nav_Bar">
           <NavigationBar />
         </div>
       </div>

@@ -7,35 +7,34 @@ import "./NavBar.css";
 const NavigationBar = () => {
   return (
     <>
-      <Navbar collapseOnSelect bg="light" expand="lg">
-        <Container>
-          <a
-            style={{
-              color: "black",
-              textDecoration: "none",
-              fontSize: "x-large",
-            }}
-            href="/"
-          >
-            MexiKansas
-          </a>
+      <Navbar collapseOnSelect variant="dark" expand="lg">
+        <Container
+          className="Nav_Bar_Title"
+          onClick={() => {
+            window.location = "/#/";
+          }}
+        >
+          <h3>MexiKansas</h3>
+
           <Navbar.Brand href="#home"></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="">
-              <Nav.Link href="/#/">Home</Nav.Link>
+              <Nav.Link href="/#/">
+                <a className="Nav_Bar_Items">Home</a>
+              </Nav.Link>
 
               <Nav.Link data-cy="posts" href="/#/posts">
-                Posts
+                <a className="Nav_Bar_Items">Posts</a>
               </Nav.Link>
               <Nav.Link data-cy="map" href="/#/map">
-                Map
+                <a className="Nav_Bar_Items">Map</a>
               </Nav.Link>
               <Nav.Link data-cy="about" href="/#/about">
-                About
+                <a className="Nav_Bar_Items">About</a>
               </Nav.Link>
               <Nav.Link data-cy="reference" href="/#/references">
-                References
+                <a className="Nav_Bar_Items">References</a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

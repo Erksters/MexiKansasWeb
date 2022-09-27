@@ -5,8 +5,7 @@ import "./styles.css";
 const Map = (props) => {
   const params = new URLSearchParams(window.location.hash.substring(5));
   const countryName = params.get("country");
-  return(<></>
-  );
+  return <></>;
 };
 
 export default Map;

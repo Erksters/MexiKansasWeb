@@ -1,7 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-p{
-  font-size: larger;
-  font-family: 'Merriweather Sans', sans-serif;
+.App {
+  background: #e5eef8;
 }
-  
+
+.Center_Content {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+p {
+  font-size: larger;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Abril Fatface", "cursive";
+}
+
+.Header {
+  display: block;
+}
+
+.Header_Title {
+  color: #0b759d;
+  font-size: 56px;
+}
+
+.Header_SubTitle {
+  color: #1fbabf;
+  font-size: x-large;
+}
+
+.Nav_Bar {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: #fff;
+}
+
+.Nav_Bar_Items {
+  text-decoration: none;
+  background: black;
+  color: #fff;
+  font-size: large;
+}
+
+.Post_Card_Arrangement {
+  display: flex;
+  max-width: 75vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Post_Cards_Display {
+  margin: 20px;
+}
+
+.Card {
+max-width: 269.95px;
+height: 500px;
+border: solid 2px;
+}
+
+.Card_Title{
+  display: flex;
+  text-align: center;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card_Body{
+  background: #f1f1f1;
+  text-align: left;
+}
+
+.Card_Button{
+  color: black;
+  background: #9CEEBC;
+  width: 100%;
+  border: solid 1px ;
+  font-size: larger;
+}
+
+.Card_Button:hover{
+  background-color: black !important;
+  border: solid 1px !important;
+}
+
+.Footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: #dedede;
+  font-size: large;
+  font-weight: 250;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10vh;
+  text-align: center;
+}

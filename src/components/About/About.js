@@ -1,29 +1,20 @@
-import React, { useEffect } from "react";
-// import { ping_about } from "../api";
+import React from "react";
 
 const About = () => {
-  useEffect(() => {
-    // fetch(ping_about);
-  }, []);
-
   return (
     <div
+      className="Center_Content"
       style={{
-        display: "flex",
-        width: "100vw",
         flexDirection: "column",
         alignItems: "center",
         textAlign: "left",
       }}
     >
-      <br/>
-          <h2>About MexiKansas.com and Its Authors</h2>
-          <br />
-      
-      <div style={{ maxWidth: "75vw" }}>
-        <br />
-        
+      <br />
+      <h2>About MexiKansas.com and Its Authors</h2>
+      <br />
 
+      <div style={{ maxWidth: "75vw" }}>
         <p>
           MexiKansas.com is a website dedicated to help Chicanos understand and
           resolve personal struggles via storytelling. The author is from the
@@ -39,14 +30,12 @@ const About = () => {
           is not limited to: First generational student, Therapy, Food, Cultural
           Ties, National Relationships, and Relationships amonsts peers.
           <ul>
-
-          
-          <li className="Topics">First-Generation Students</li>
-          <li className="Topics">Cultural Ties</li>
-          <li className="Topics">Food and Diet</li>
-          <li className="Topics">Therapy</li>
-          <li className="Topics">Relationships with Peers</li>
-          <li className="Topics">National Relationships</li>
+            <li className="Topics">First-Generation Students</li>
+            <li className="Topics">Cultural Ties</li>
+            <li className="Topics">Food and Diet</li>
+            <li className="Topics">Therapy</li>
+            <li className="Topics">Relationships with Peers</li>
+            <li className="Topics">National Relationships</li>
           </ul>
         </p>
 

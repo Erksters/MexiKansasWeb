@@ -44,25 +44,19 @@ const PostsParent = () => {
 
   return (
     <div
+      className="Center_Content"
       style={{
-        display: "flex",
-        width: "100vw",
-        justifyContent: "center",
+        textAlign: "center",
+        flexDirection: "column",
+        alignItems: "center",
       }}
     >
-      <div
-        data-mid="mid"
-        style={{
-          display: "flex",
-          maxWidth: "75vw",
-          flexDirection: "row",
-          flexWrap: "wrap",
-        }}
-      >
-        <br />
+      <br />
+      <h2>Select An Article to Get Started</h2>
 
+      <div className="Post_Card_Arrangement">
         {Object.keys(PostData).map((entry, index) => (
-          <div style={{ margin: "20px" }}>
+          <div className="Post_Cards_Display">
             <PostCard
               key={index}
               post_id={index}

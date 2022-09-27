@@ -4,10 +4,10 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="Footer">
-      <div style={{ textAlign: "center" }}>
+      <p>
         MexiKansas.com is an independently funded project. This project is still
         under construction.
-      </div>
+      </p>
     </div>
   );
 }; /* Footer() */

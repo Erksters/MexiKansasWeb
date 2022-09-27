@@ -10,19 +10,19 @@ import About from "./components/About/About";
 import AppSEO from "./components/SEO/AppSEO";
 import PostsParent from "./components/Posts/PostsParent";
 import References from "./components/References/References";
-import "./App.css"
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <AppSEO />
       <br />
       <Header />
-      <div>
+      <div className="Page_Parent">
         <Router basename="/#/">
           <Switch>
             <Route path="/about" component={About} />
-             <Route path="/references" component={References} />
+            <Route path="/references" component={References} />
             {/*
             <Route path="/map" component={Map} /> */}
             <Route path="/posts" component={PostsParent} />
