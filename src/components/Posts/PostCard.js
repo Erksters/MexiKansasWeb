@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { search_post } from "../api";
+import { retrieve_post } from "../api";
 
 const PostCard = (props) => {
   const { title, imageArray, teaser, post_id } = props;
@@ -24,7 +24,7 @@ const PostCard = (props) => {
           className="Card_Title"
           style={{ cursor: "pointer" }}
           onClick={() => {
-            window.open(`${search_post}${post_id}`, "_blank").focus();
+            window.open(`${retrieve_post}${post_id}`, "_blank").focus();
           }}
         >
           {title}
@@ -34,7 +34,7 @@ const PostCard = (props) => {
           className="Card_Img"
           style={{ cursor: "pointer" }}
           onClick={() => {
-            window.open(`${search_post}${post_id}`, "_blank").focus();
+            window.open(`${retrieve_post}${post_id}`, "_blank").focus();
           }}
           variant="top"
           src={denseArrayImages[imageArray[0]]}
@@ -46,7 +46,7 @@ const PostCard = (props) => {
         <Button
           className="Card_Button"
           onClick={() => {
-            window.open(`${search_post}${post_id}`, "_blank").focus();
+            window.open(`${retrieve_post}${post_id}`, "_blank").focus();
           }}
         >
           Read More

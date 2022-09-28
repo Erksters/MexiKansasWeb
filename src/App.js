@@ -13,6 +13,7 @@ import References from "./components/References/References";
 import Submissions from "./components/Submissions/Submissions";
 import "./App.css";
 import Map from "./components/Map/Map";
+import Post from "./components/Posts/Post";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/about" component={About} />
             <Route path="/references" component={References} />
             <Route path="/map" component={Map} />
+            <Route path="/posts/:id" component={Post} />
             <Route path="/posts" component={PostsParent} />
             <Route path="/submissions" component={Submissions} />
 

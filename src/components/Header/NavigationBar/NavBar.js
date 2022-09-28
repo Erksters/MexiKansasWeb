@@ -25,7 +25,7 @@ const NavigationBar = () => {
               <Nav.Link href="/#/">
                 <a
                   id="item"
-                  onMouseOver="this.style.color='red'"
+                  
                   className="Nav_Bar_Items"
                 >
                   Home
