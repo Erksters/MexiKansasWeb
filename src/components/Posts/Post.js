@@ -5,7 +5,7 @@ import ReactHtmlParser from "react-html-parser";
 const Post = (props) => {
   const { post_id } = props;
   const ReadPost = PostData[post_id];
-  
+
   return (
     <div
       style={{

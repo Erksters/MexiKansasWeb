@@ -45,6 +45,8 @@ h1 {
 
 .Nav_Bar_Title {
   cursor: pointer;
+  font-size: x-large;
+  margin-top: 5px;
 }
 
 .Nav_Bar_Title :hover {

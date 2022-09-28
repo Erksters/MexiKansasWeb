@@ -8,8 +8,9 @@ const NavigationBar = () => {
   return (
     <>
       <Navbar collapseOnSelect variant="dark" expand="lg">
-        <Container className="Nav_Bar_Title">
+        <Container>
           <h3
+            className="Nav_Bar_Title"
             onClick={() => {
               window.location = "/#/";
             }}
