@@ -19,7 +19,7 @@ const Map = () => {
       <div style={{ width: "75vw", textAlign: "left" }}>
         <h3></h3> <br />
         <h3>Here we look at the Food Desert in Manhattan, Kansas.</h3>
-        <div className="iframe-wrapper">
+        <div className="iframe-wrapper Shadow">
           <iframe
             width="100%"
             height="100%"
@@ -31,6 +31,7 @@ const Map = () => {
             src="//kstate.maps.arcgis.com/apps/Embed/index.html?webmap=43d101d073bd44f198b50d23a7f85e85&extent=-96.7132,39.1294,-96.5517,39.24&home=true&zoom=true&previewImage=true&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=true&theme=light"
           ></iframe>
         </div>
+        <br />
         <a
           href="https://kstate.maps.arcgis.com/apps/Embed/index.html?webmap=43d101d073bd44f198b50d23a7f85e85&extent=-96.7132,39.1294,-96.5517,39.24&home=true&zoom=true&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&basemap_gallery=true&disable_scroll=true&theme=light"
           style={{ color: "#0000FF" }}

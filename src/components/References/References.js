@@ -7,13 +7,12 @@ const References = () => {
       style={{
         flexDirection: "column",
         alignItems: "center",
-        textAlign: "left",
       }}
     >
-      <br />
-      <h2>Where We Find Information</h2>
-      <br />
-      <div style={{ maxWidth: "75vw" }}>
+      <div style={{ maxWidth: "75vw", textAlign: "left" }}>
+        <br />
+        <h2 style={{ textAlign: "center" }}>Where We Find Information</h2>
+        <br />
         <p>
           Many of our stories come from anonymous submissions or the original
           author of this website. We don't ask story-tellers to give their names

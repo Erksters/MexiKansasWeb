@@ -44,7 +44,7 @@ const PostsParent = () => {
         ))}
 
         <button
-          className="Simple_Button"
+          className="Simple_Button Shadow"
           onClick={() => {
             window.location = "/#/submissions";
           }}

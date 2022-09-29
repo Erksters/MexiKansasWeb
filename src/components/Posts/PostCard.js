@@ -19,38 +19,38 @@ const PostCard = (props) => {
 
   return (
     <>
-      <div className="Card">
-        <div
+      <div className="Card Shadow">
+        <a
           className="Card_Title"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            window.open(`${retrieve_post}${post_id}`, "_blank").focus();
-          }}
+          target="_blank"
+          href={`${retrieve_post}${post_id}`}
         >
           {title}
-        </div>
+        </a>
 
-        <img
-          className="Card_Img"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            window.open(`${retrieve_post}${post_id}`, "_blank").focus();
-          }}
-          variant="top"
-          src={denseArrayImages[imageArray[0]]}
-        />
+        <a
+          className="Card_Img_a_Tag_Parent"
+          target="_blank"
+          href={`${retrieve_post}${post_id}`}
+        >
+          <img
+            className="Card_Img"
+            variant="top"
+            src={denseArrayImages[imageArray[0]]}
+          />
+        </a>
+
         <div className="Card_Body">
           <div>{teaser.substring(0, 100)}...</div>
         </div>
 
-        <Button
+        <a
           className="Card_Button"
-          onClick={() => {
-            window.open(`${retrieve_post}${post_id}`, "_blank").focus();
-          }}
+          target="_blank"
+          href={`${retrieve_post}${post_id}`}
         >
           Read More
-        </Button>
+        </a>
       </div>
     </>
   );

@@ -23,11 +23,7 @@ const NavigationBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="Nav_Item_Hover">
               <Nav.Link href="/#/">
-                <a
-                  id="item"
-                  
-                  className="Nav_Bar_Items"
-                >
+                <a id="item" className="Nav_Bar_Items">
                   Home
                 </a>
               </Nav.Link>

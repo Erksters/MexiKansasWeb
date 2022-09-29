@@ -20,7 +20,7 @@ const Home = () => {
         <h2>Review Popular Tweets or Read Our Posts</h2>
         <br />
         <button
-          className="Simple_Button"
+          className="Simple_Button  Shadow"
           onClick={() => {
             window.location = "/#/posts";
           }}
@@ -31,18 +31,20 @@ const Home = () => {
         <br />
         <br />
 
-        <h3>Review Latinx Tweets</h3>
         <iframe
-          src="https://widgets.sociablekit.com/twitter-hashtag-feed/iframe/94228"
+          className=" Shadow"
+          src="https://widgets.sociablekit.com/twitter-feed/iframe/94249"
           frameborder="0"
           width="100%"
           height="500"
         ></iframe>
+
         <br />
         <br />
 
         <iframe
-          src="https://widgets.sociablekit.com/twitter-feed/iframe/94249"
+          className=" Shadow"
+          src="https://widgets.sociablekit.com/twitter-hashtag-feed/iframe/94228"
           frameborder="0"
           width="100%"
           height="500"

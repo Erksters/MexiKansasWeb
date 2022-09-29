@@ -10,11 +10,12 @@ const About = () => {
         textAlign: "left",
       }}
     >
-      <br />
-      <h2>About MexiKansas.com and Its Authors</h2>
-      <br />
-
       <div style={{ maxWidth: "75vw" }}>
+        <br />
+        <h2 style={{ textAlign: "center" }}>
+          About MexiKansas.com and Its Authors
+        </h2>
+        <br />
         <p>
           MexiKansas.com is a website dedicated to help Chicanos and others
           understand, resolve, and improve personal struggles via storytelling.

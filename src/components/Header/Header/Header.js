@@ -30,7 +30,7 @@ const Header = () => {
             <p className="Header_SubTitle">The Chicano Experience</p>
           </div>
         </a>
-        <div className="Nav_Bar">
+        <div className="Nav_Bar ">
           <NavigationBar />
         </div>
       </div>
