@@ -9,7 +9,7 @@ const References = () => {
         alignItems: "center",
       }}
     >
-      <div style={{ maxWidth: "75vw", textAlign: "left" }}>
+      <div style={{ maxWidth: "80vw", textAlign: "left" }}>
         <br />
         <h2 style={{ textAlign: "center" }}>Where We Find Information</h2>
         <br />

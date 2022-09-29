@@ -12,12 +12,13 @@ const Map = () => {
         alignItems: "center",
       }}
     >
+      <div style={{ width: "80vw", textAlign: "left" }}>
       <br />
-      <h2>
+      <h2 style={{textAlign:'center'}}>
         Our Maps focus on Food, Education, and Green Infrastructure Deserts
       </h2>
-      <div style={{ width: "75vw", textAlign: "left" }}>
-        <h3></h3> <br />
+
+        <br />
         <h3>Here we look at the Food Desert in Manhattan, Kansas.</h3>
         <div className="iframe-wrapper Shadow">
           <iframe

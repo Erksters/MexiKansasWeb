@@ -19,8 +19,13 @@ const PostCard = (props) => {
 
   return (
     <>
-      <div className="Card Shadow">
-        <a
+      <div className="Card Shadow"
+        id={`${post_id}_button_to_read_post`}
+        data-cy={`Card_${post_id}`}
+      >
+      <a
+      id={`${post_id}_title_link_to_read_post`}
+      data-cy={`Card__title_link_${post_id}`}
           className="Card_Title"
           target="_blank"
           href={`${retrieve_post}${post_id}`}
@@ -30,6 +35,8 @@ const PostCard = (props) => {
 
         <a
           className="Card_Img_a_Tag_Parent"
+          id={`${post_id}_Img_to_read_post`}
+          data-cy={`Card_Img${post_id}`}
           target="_blank"
           href={`${retrieve_post}${post_id}`}
         >
@@ -45,6 +52,8 @@ const PostCard = (props) => {
         </div>
 
         <a
+          id={`${post_id}_Card_Button_to_read_post`}
+          data-cy={`Card_Button_${post_id}`}
           className="Card_Button"
           target="_blank"
           href={`${retrieve_post}${post_id}`}

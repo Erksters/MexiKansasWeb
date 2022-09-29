@@ -22,7 +22,7 @@ const Post = (props) => {
 
       <div
         style={{
-          maxWidth: "75vw",
+          maxWidth: "80vw",
           textAlign: "left",
         }}
       >

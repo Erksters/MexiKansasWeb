@@ -30,7 +30,6 @@ const App = () => {
             <Route path="/posts/:id" component={Post} />
             <Route path="/posts" component={PostsParent} />
             <Route path="/submissions" component={Submissions} />
-
             <Route exact path="/" component={Home} />
           </Switch>
         </Router>

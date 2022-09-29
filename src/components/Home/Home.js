@@ -16,7 +16,7 @@ const Home = () => {
     >
       <br />
 
-      <div style={{ width: "75vw" }}>
+      <div style={{ width: "80vw" }}>
         <h2>Review Popular Tweets or Read Our Posts</h2>
         <br />
         <button

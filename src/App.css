@@ -65,7 +65,7 @@ h1 {
 }
 .Post_Card_Arrangement {
   display: flex;
-  max-width: 75vw;
+  max-width: 80vw;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -75,10 +75,9 @@ h1 {
 }
 
 .Card {
-  padding: 10px;
   max-width: 269.95px;
   height: 500px;
-  border: solid 3px;
+  border: solid 2px;
   display: flex;
   flex-direction: column;
   background: #f1f1f1;

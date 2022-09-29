@@ -13,7 +13,7 @@ const Submissions = () => {
     >
       <br />
 
-      <div style={{ width: "75vw" }}>
+      <div style={{ width: "80vw" }}>
         <h2>Contribute Your Own Post by Completing the Form Below</h2>
         <br />
 

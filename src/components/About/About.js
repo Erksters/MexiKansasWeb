@@ -10,7 +10,7 @@ const About = () => {
         textAlign: "left",
       }}
     >
-      <div style={{ maxWidth: "75vw" }}>
+      <div style={{ maxWidth: "80vw" }}>
         <br />
         <h2 style={{ textAlign: "center" }}>
           About MexiKansas.com and Its Authors
