@@ -13,10 +13,10 @@ const Map = () => {
       }}
     >
       <div style={{ width: "80vw", textAlign: "left" }}>
-      <br />
-      <h2 style={{textAlign:'center'}}>
-        Our Maps focus on Food, Education, and Green Infrastructure Deserts
-      </h2>
+        <br />
+        <h2 style={{ textAlign: "center" }}>
+          Our Maps focus on Food, Education, and Green Infrastructure Deserts
+        </h2>
 
         <br />
         <h3>Here we look at the Food Desert in Manhattan, Kansas.</h3>

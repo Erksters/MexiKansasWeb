@@ -63,6 +63,13 @@ h1 {
 .Nav_Item_Hover :hover {
   color: #9ceebc;
 }
+
+.SearchBar {
+  border: solid black 2px;
+  border-radius: 10px;
+  width: 100%;
+}
+
 .Post_Card_Arrangement {
   display: flex;
   max-width: 80vw;
