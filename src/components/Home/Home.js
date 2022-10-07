@@ -1,6 +1,6 @@
 import React from "react";
 import Loading from "../Loading/Loading";
-import { Button } from "react-bootstrap";
+import { Timeline } from "react-twitter-widgets";
 import "./Home.css";
 
 const Home = () => {
@@ -31,24 +31,18 @@ const Home = () => {
         <br />
         <br />
 
-        <iframe
-          className=" Shadow"
-          src="https://widgets.sociablekit.com/twitter-feed/iframe/94249"
-          frameborder="0"
-          width="100%"
-          height="500"
-        ></iframe>
-
-        <br />
-        <br />
-
-        <iframe
-          className=" Shadow"
-          src="https://widgets.sociablekit.com/twitter-hashtag-feed/iframe/94228"
-          frameborder="0"
-          width="100%"
-          height="500"
-        ></iframe>
+        <Timeline
+          className="Shadow"
+          renderError={() => {
+            return (
+              <>
+                Try Refreshing the page
+                <Loading />{" "}
+              </>
+            );
+          }}
+          dataSource={{ sourceType: "profile", screenName: "DoloresHuertaFD" }}
+        />
       </div>
     </div>
   );

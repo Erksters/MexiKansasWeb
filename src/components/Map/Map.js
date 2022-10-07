@@ -19,13 +19,13 @@ const Map = () => {
         </h2>
 
         <p>
-            Living in a food desert can be extremly challenging without reliable
-            transportation. We can begin to identify that there is a large
-            portion of Kansas residents that live too far to walk to grocery
-            stores. Having access to essential nutrition, is critical for a
-            healthy diet and general well-being. We created this Map to help
-            Kansans identify better homes to purchase or their next rental.
-          </p>
+          Living in a food desert can be extremly challenging without reliable
+          transportation. We can begin to identify that there is a large portion
+          of Kansas residents that live too far to walk to grocery stores.
+          Having access to essential nutrition, is critical for a healthy diet
+          and general well-being. We created this Map to help Kansans identify
+          better homes to purchase or their next rental.
+        </p>
 
         <br />
         <h3>Here we look at the Food Desert in Manhattan, Kansas.</h3>
@@ -79,7 +79,6 @@ const Map = () => {
         <br />
         <br />
         <div>
-
           <p>
             You can review more maps on{" "}
             <a href="https://www.arcgis.com/index.html">ArcGIS.com</a> or visit
